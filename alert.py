@@ -12,7 +12,7 @@ import socket
 Messaging application to send notifications to all available devices (registered) in the event of an emergency.
 Author: Christian Thorsnes
 Version:
-		20 Jan 2020 - 0.1.0 - Many optimizations (Alert time just over a minute)
+		20 Jan 2020 - 0.1.0 - Many optimizations
 		19 Jan 2020 - 0.0.2 - New Ring
 		08 Jan 2020 - 0.0.1 - Quick Release
 '''
