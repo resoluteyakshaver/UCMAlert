@@ -18,7 +18,7 @@ Version:
 '''
 
 def dispatch_msg(ip=None, msg=None):
-    //Change incoming.raw with whatever phone alert sound has been uploaded to CUCM
+    #Change incoming.raw with whatever phone alert sound has been uploaded to CUCM
     xml2 = '''XML=<CiscoIPPhoneExecute><ExecuteItem Priority="1" URL="Play:incoming.raw"/></CiscoIPPhoneExecute>'''
     xml1 = '''XML=<CiscoIPPhoneText><Prompt>EMERGENCY ALERT</Prompt><Text>'''+ msg + '''</Text></CiscoIPPhoneText>'''
     headers = {'authorization': 'Basic c2VuZG1zZzpzZW5kbXNn','content-type': 'application/xml'}
@@ -104,7 +104,7 @@ while True:
 
 print(alert)
 
-//Populate this string list with IPs of CUCMs
+#Populate this string list with IPs of CUCMs
 CLUSTER = ['','']
 
 
